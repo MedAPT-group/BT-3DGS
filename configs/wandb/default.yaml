@@ -1,0 +1,24 @@
+enabled: false
+project: "bt-3dgs"
+entity: null
+run_name: ""
+tags: []
+
+# sweep bindings
+bindings:
+  - source: "optim.lr_means_init"
+    target: "optim.lr_means_final"
+    op: "mul"
+    factor: 0.1
+  - source: "optim.lr_scales_init"
+    target: "optim.lr_scales_final"
+    op: "mul"
+    factor: 0.1
+  - source: "optim.lr_quats_init"
+    target: "optim.lr_quats_final"
+    op: "mul"
+    factor: 0.1
+  - source: "optim.lr_opacities_init"
+    target: "optim.lr_opacities_final"
+    op: "mul"
+    factor: 0.1

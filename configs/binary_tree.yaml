@@ -1,0 +1,11 @@
+# Binary-tree training profile assembled from config groups.
+
+defaults:
+  - base
+  - wandb: default
+  - model: binary_tree
+  - strategy: binary_tree
+  - trainer: binary_tree
+  - optim: binary_tree
+  - exp: 15_views
+  - _self_

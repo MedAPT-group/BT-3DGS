@@ -1,0 +1,15 @@
+# Base Hydra runtime behavior shared by all training profiles.
+
+defaults:
+  - _self_
+
+hydra:
+  run:
+    dir: .
+  output_subdir: null
+
+random:
+  seed: 42
+  deterministic: true
+  cudnn_benchmark: false
+  deterministic_warn_only: true

@@ -1,0 +1,7 @@
+recursive-include r2splat/cuda/csrc *.cpp *.cu *.h
+recursive-include r2splat/cuda/include *.h *.cuh
+recursive-include configs *.yaml
+recursive-include tests *.py
+recursive-include docs *.md
+include README.md CONTRIBUTING.md THIRD_PARTY_NOTICES.md LICENSE
+include pytest.ini

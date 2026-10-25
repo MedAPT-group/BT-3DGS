@@ -1,0 +1,8 @@
+lr_means_init: 6.0e-4
+lr_means_final: 6.0e-5
+lr_scales_init: 4.0e-3
+lr_scales_final: 4.0e-4
+lr_quats_init: 3.0e-4
+lr_quats_final: 3.0e-5
+lr_opacities_init: 1.0e-2
+lr_opacities_final: 1.0e-3

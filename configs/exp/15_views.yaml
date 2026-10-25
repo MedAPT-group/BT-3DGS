@@ -1,0 +1,3 @@
+# Supply the scene directory on the command line: exp.data_dir=/path/to/scene.
+data_dir: ???
+result_dir: "output/bt3dgs"

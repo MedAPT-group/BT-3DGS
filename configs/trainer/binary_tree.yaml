@@ -1,0 +1,43 @@
+device: "cuda:0"
+
+max_steps: 30000
+batch_size: 1
+save_steps: [29999]
+ply_steps: [29999]
+lod_thresholds: [1024, 2048, 4096, 8192, 16384, 32768]
+
+proj_l1_weight: 1.0
+proj_ssim_weight: 0.25
+vol_tv_weight: 0.05
+tv_vol_size: 32
+ssim_window: 11
+
+gt_blur_sigma_init: 4.0
+gt_blur_sigma_final: 0.0
+gt_blur_start_step: 0
+gt_blur_end_step: 10000
+
+edge_weight_init: 0.0
+edge_weight_final: 1.0
+edge_weight_start_step: 10000
+edge_weight_end_step: 20000
+
+hierarchy_weight: 0.05
+hierarchy_parent_distance_factor: 1.0
+
+packed: false
+sparse_grad: false
+save_ply: true
+metrics_every: 1000
+visualize_every: 5000
+
+gif_npy_every: 0
+gif_npy_dir: "gif_npy"
+gif_npy_save_projection: false
+gif_npy_projection_angle: 0.0
+gif_npy_save_volume: false
+
+num_workers: 4
+pin_memory: true
+persistent_workers: true
+limit_threads: true

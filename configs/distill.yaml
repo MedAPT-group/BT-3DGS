@@ -1,0 +1,11 @@
+# Student distillation profile assembled from config groups.
+
+defaults:
+  - base
+  - wandb: default
+  - model: distill
+  - strategy: distill
+  - trainer: distill
+  - optim: distill
+  - exp: 15_views
+  - _self_

@@ -1,0 +1,43 @@
+# Python and build artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.o
+*.egg-info/
+/build/
+/dist/
+/.pytest_cache/
+/.coverage
+/htmlcov/
+
+# Local datasets and runs (root-anchored to keep src/data and configs/wandb)
+/data/
+/datasets/
+/output/
+/outputs/
+/results/
+/logs/
+/wandb/
+/multirun/
+/.hydra/
+*.log
+*.pt
+*.pth
+*.pickle
+*.npy
+*.npz
+*.ply
+
+# Local environments, credentials, and editor state
+.env
+.env.*
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+._*
+.ipynb_checkpoints/
+/AGENTS.md
+/.agents/
+/.codex/

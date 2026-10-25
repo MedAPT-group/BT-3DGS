@@ -1,0 +1,30 @@
+# Validation profile for CT 3DGS model evaluation.
+
+defaults:
+  - _self_
+
+hydra:
+  run:
+    dir: .
+  output_subdir: null
+
+data_dir: ???
+checkpoint_path: ???
+result_dir: "output/validation"
+
+device: "cuda:0"
+eval_save_images_n: 100
+ssim_window: 11
+
+num_workers: 0
+pin_memory: true
+
+scale_min: null
+scale_max: null
+scale_eps: 1.0e-5
+
+random:
+  seed: 42
+  deterministic: true
+  cudnn_benchmark: false
+  deterministic_warn_only: true

@@ -1,0 +1,23 @@
+device: "cuda:0"
+
+max_steps: 30000
+batch_size: 1
+save_steps: [29999]
+ply_steps: [29999]
+
+proj_l1_weight: 1.0
+proj_ssim_weight: 0.25
+vol_tv_weight: 0.05
+tv_vol_size: 32
+ssim_window: 11
+
+packed: false
+sparse_grad: false
+save_ply: true
+metrics_every: 1000
+visualize_every: 5000
+
+num_workers: 4
+pin_memory: true
+persistent_workers: true
+limit_threads: true

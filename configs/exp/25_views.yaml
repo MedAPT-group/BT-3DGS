@@ -1,0 +1,3 @@
+# View counts are determined by the supplied scene metadata.
+data_dir: ???
+result_dir: "output/bt3dgs"

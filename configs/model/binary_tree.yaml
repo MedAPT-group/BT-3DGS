@@ -1,0 +1,16 @@
+global_scale: 1.0
+init_extent: 3.0
+init_opa_scale: 1.0
+init_scale_multiplier: 1.0
+
+scale_min: 0.0005
+scale_max: 1.0
+scale_eps: 1.0e-5
+
+eps2d: 1.0e-8
+eps3d: 1.0e-8
+img_tile_size: 16
+vol_tile_size: 8
+img_radius_clip: 3.0
+vol_radius_clip: 3.0
+backward_mode: primitive

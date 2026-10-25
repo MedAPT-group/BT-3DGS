@@ -1,0 +1,11 @@
+# Default training profile assembled from config groups.
+
+defaults:
+  - base
+  - wandb: default
+  - model: default
+  - strategy: default
+  - trainer: default
+  - optim: default
+  - exp: 15_views
+  - _self_

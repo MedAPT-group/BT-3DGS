@@ -1,0 +1,11 @@
+# LoD (Level-of-Detail) multi-level distillation profile.
+
+defaults:
+  - base
+  - wandb: default
+  - model: distill
+  - strategy: distill
+  - trainer: lod
+  - optim: distill
+  - exp: 15_views
+  - _self_
